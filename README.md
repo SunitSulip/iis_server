@@ -18,5 +18,7 @@ The iis server page website name is **first**
  ![](Screenshot/action_post.PNG)
 
  -> and its response
+ the post shows error as it can handle only dynamic data not static data
+  ![](Screenshot/response_of%20_post.PNG)
 
  
