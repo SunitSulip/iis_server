@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Action</title>
+
+	<style type="text/css">
+		body {
+			background-color: gray;
+			text-align: center;
+		}
+		body:hover {
+			background-color: lightgray;
+		}
+		form {
+			font-family: fantasy;
+		}
+	</style>
+</head>
+<body>
+
+	<h1>The form method="get" attribute</h1>
+
+<form style="display: block;" action="./result.html" method="get" target="_blank">
+  <label for="fname">First name:</label>
+  <input type="text" id="fname" name="fname"><br><br>
+  <label for="lname">Last name:</label>
+  <input type="text" id="lname" name="lname"><br><br>
+  <label for="lname">Password:</label>
+  <input type="Password" id="pwd" name="pwd"><br><br>
+  <input style="size: 50;" type="submit" value="Submit">
+</form>
+
+<p>Click on the submit button, and the input will be sent to a page on the server called "action.html".</p>
+
+
+
+</body>
+</html>
+
